@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.login-body {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(20, 40, 20, 0.65), rgba(20, 40, 20, 0.65)),
+        url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.94);
+    padding: 40px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+.login-container h1 {
+    color: #3e2723;
+    margin-bottom: 12px;
+}
+
+.login-container p {
+    color: #5d4037;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 16px;
+    border: 1px solid #bca78a;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3e2723;
+    transform: scale(1.03);
+}
+
+.menu-body {
+    background: #f4ead8;
+    color: #3e2723;
+}
+
+header {
+    text-align: center;
+    padding: 35px;
+    background: #2f4f2f;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 28px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 22px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #6d4c41;
+    margin-bottom: 12px;
+}
+
+.price {
+    color: #2e7d32;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cart {
+    width: 500px;
+    max-width: 90%;
+    margin: 20px auto 45px;
+    background: white;
+    padding: 28px;
+    border-radius: 22px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cart h2 {
+    margin-bottom: 15px;
+}
+
+#cart li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
